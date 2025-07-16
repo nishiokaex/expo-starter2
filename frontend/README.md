@@ -18,3 +18,5 @@ Deploy on all platforms with Expo Application Services (EAS).
 ## 📝 Notes
 
 - [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+
+- `claude mcp add playwright npx @playwright/mcp@latest`

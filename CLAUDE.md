@@ -32,7 +32,8 @@
 - **フォーム**: react-hook-form
 - **アイコン**: react-icons
 - **HTTP通信**: axios（一般用途）, fetch（エラーサーバ通信用）
-- **Drag And Drop**: @mgcrea/react-native-dnd
+- **ジェスチャー**: react-native-gesture-handler
+- **アニメーション**: react-native-reanimated
 - **言語**: JavaScript（TypeScript不使用）
 
 ### バックエンド(backend)

@@ -73,6 +73,7 @@
 - 関数は単一責任の原則に従う
 - エラーはカスタムエラークラスを使用
 - すべての公開 API にはドキュメントコメント(JSDoc、docstring、etc)を付ける
+- 詳細は`docs/coding-conventions.md`を参照
 
 ## テスト作成方針
 

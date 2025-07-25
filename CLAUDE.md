@@ -26,6 +26,7 @@
 - **状態管理**: Zustand (Class構文を使ったストア定義)
 - **UIライブラリ**: react-native-paper, react-native-safe-area-context
 - **Bottom Tab**: react-native-bottom-tabs
+- **Chat UI**: react-native-gifted-chat
 - **データ永続化**: @react-native-async-storage/async-storage
 - **通知**: expo-notifications
 - **多言語対応**: react-i18next
@@ -80,10 +81,11 @@
 ## 機能開発プロセス
 
 1. feature/[エンハンス内容] という名前の機能ブランチを作成する
-2. 機能を開発する
-3. Web版でビルドして動作確認し、./frontend/logs以下のファイルに例外が出力されなくなるまで、修正する
-4. 変更内容をコミットする
-5. ghコマンドでPull Requestを作成する。マージで機能ブランチを削除する設定で作成する。
+2. Gherkin記法を使用して、Given-When-Thenの構造で受け入れテストシナリオを記述する
+3. 機能を開発する
+4. Web版でビルドして受け入れテストシナリオを実行し、./frontend/logs以下のファイルに例外が出力されなくなるまで、修正する
+5. 変更内容をコミットする
+6. ghコマンドでPull Requestを作成する。マージで機能ブランチを削除する設定で作成する。
 
 ## 動作確認
 ```

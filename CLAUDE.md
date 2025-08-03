@@ -26,7 +26,6 @@
 - **状態管理**: Zustand (Class構文を使ったストア定義)
 - **UIライブラリ**: react-native-paper, react-native-safe-area-context
 - **Bottom Tab**: react-native-bottom-tabs
-- **Chat UI**: react-native-gifted-chat
 - **データ永続化**: @react-native-async-storage/async-storage
 - **通知**: expo-notifications
 - **多言語対応**: react-i18next
